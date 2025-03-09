@@ -45,19 +45,30 @@
                 </div>
 
                 <nav class="hidden md:block">
-                    <ul class="flex space-x-8">
-                        <li><a href="#home" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">الرئيسية</a>
-                        </li>
-                        <li><a href="#services" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">خدماتنا</a>
-                        </li>
-                        <li><a href="#homes" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">الشقق
-                                المفروشة</a></li>
-                        <li><a href="#cars" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">تأجير
-                                السيارات</a></li>
-                        <li><a href="#contact" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">اتصل
-                                بنا</a></li>
-                    </ul>
-                </nav>
+                  <ul class="flex gap-x-8">
+                      <li class="flex items-center">
+                          <i class="fa-solid fa-home mr-2"></i>
+                          <a href="#home" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">الرئيسية</a>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fa-solid fa-cogs mr-2"></i>
+                          <a href="#services" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">خدماتنا</a>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fa-solid fa-building mr-2"></i>
+                          <a href="#homes" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">الشقق المفروشة</a>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fa-solid fa-car mr-2"></i>
+                          <a href="#cars" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">تأجير السيارات</a>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fa-solid fa-phone mr-2"></i>
+                          <a href="#contact" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">اتصل بنا</a>
+                      </li>
+                  </ul>
+              </nav>
+              
 
                 <div class="flex items-center space-x-4">
                     <!-- Dark/Light Mode Toggle -->
@@ -71,9 +82,12 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
                         </svg>
                     </button>
-
-                    <button class="bg-accent-light hover:bg-accent-dark text-white font-semibold py-2 px-6 rounded-full transition-colors duration-300">احجز
-                        الآن</button>
+<!--                                   ==> change to Your Phone Number  -->
+                    <a href="https://wa.me/201117304982" target="_blank" class="bg-accent-light hover:bg-accent-dark text-white font-semibold py-2 px-6 rounded-full transition-colors duration-300">
+                      احجز الآن
+                  </a>
+                  
+                  
                 </div>
             </div>
         </div>
@@ -142,7 +156,9 @@
                                 <span class="dark:text-gray-200">مكيفة بالكامل</span>
                             </li>
                         </ul>
-                        <button class="bg-accent-light hover:bg-accent-dark text-white font-semibold py-2 px-6 rounded-full transition-colors duration-300">استكشف
+                        <button
+                        onclick="window.location.href='index.html'"
+                        class="bg-accent-light hover:bg-accent-dark text-white font-semibold py-2 px-6 rounded-full transition-colors duration-300">استكشف
                             الشقق</button>
                     </div>
                 </div>
@@ -181,7 +197,9 @@
                                 <span class="dark:text-gray-200">تأمين شامل وخدمة صيانة</span>
                             </li>
                         </ul>
-                        <button class="bg-accent-light hover:bg-accent-dark text-white font-semibold py-2 px-6 rounded-full transition-colors duration-300">استكشف
+                        <button 
+                        onclick="window.location.href='cars.html'"
+                        class="bg-accent-light hover:bg-accent-dark text-white font-semibold py-2 px-6 rounded-full transition-colors duration-300">استكشف
                             السيارات</button>
                     </div>
                 </div>
