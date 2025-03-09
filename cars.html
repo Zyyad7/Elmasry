@@ -42,18 +42,34 @@
         <div class="container mx-auto px-4 py-3">
             <div class="flex items-center justify-between">
                 <div class="text-2xl md:text-3xl font-bold">
-                    <a href="/">ال<span class="text-accent-light dark:text-accent-light">مصري</span></a>
-                </div>
+                  <button   onclick="window.location.href='test.html'" >ال<span class="text-accent-light dark:text-accent-light">مصري</span></a>
+                  </div>
 
+            
                 <nav class="hidden md:block">
-                    <ul class="flex space-x-8">
-                        <li><a href="/" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">الرئيسية</a></li>
-                        <li><a href="#" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">تأجير السيارات</a></li>
-                        <li><a href="#" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">الشقق المفروشة</a></li>
-                        <li><a href="#" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">اتصل بنا</a></li>
-                    </ul>
-                </nav>
-
+                  <ul class="flex gap-x-8">
+                      <li class="flex items-center">
+                          <i class="fa-solid fa-home mr-2"></i>
+                          <a href="#home" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">الرئيسية</a>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fa-solid fa-cogs mr-2"></i>
+                          <a href="#services" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">خدماتنا</a>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fa-solid fa-building mr-2"></i>
+                          <a href="#homes" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">الشقق المفروشة</a>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fa-solid fa-car mr-2"></i>
+                          <a href="#cars" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">تأجير السيارات</a>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fa-solid fa-phone mr-2"></i>
+                          <a href="#contact" class="font-medium hover:text-accent-light dark:hover:text-accent-light transition-colors">اتصل بنا</a>
+                      </li>
+                  </ul>
+              </nav>
                 <div class="flex items-center space-x-4">
                     <!-- Dark/Light Mode Toggle -->
                     <button id="theme-toggle" class="p-2 rounded-full bg-gray-100 dark:bg-gray-700 focus:outline-none">
